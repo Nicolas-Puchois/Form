@@ -5,35 +5,53 @@
         <h1> Formulaire à remplir</h1>
         <form action="" method="post" class="form">
 
-            <label for="name">Prénom</label>
-            <input type="text" id="name">
+            <fieldset>
+                <legend> Information personnel</legend>
+                <label for="name">Prénom</label>
+                <input type="text" id="name">
 
-            <label for="surname">Nom</label>
-            <input type="text" id="surname">
+                <label for="surname">Nom</label>
+                <input type="text" id="surname">
 
-            <label for="age">Age</label>
-            <input type="number" id="age" min="0">
+                <label for="age">Age</label>
+                <input type="number" id="age" min="0">
 
-            <label for="gender">Sexe</label>
-            <select name="gender" id="gender">
-                <option value="other">Non Renseigné</option>
-                <option value="man">Homme</option>
-                <option value="woman">Femme</option>
+                <label for="gender">Sexe</label>
+                <select name="gender" id="gender">
+                    <option value="other">Non Renseigné</option>
+                    <option value="man">Homme</option>
+                    <option value="woman">Femme</option>
+                </select>
+                <label for="secu">Numéro de sécurité social</label>
+                <input type="text" id="secu" minlength="13" maxlength="13" impute="number">
+                <label for="nation">Nationalité</label>
+                <select name="nationality" id="nation">
+                    <option value="french">Français</option>
+                    <option value="uk">Anglais</option>
+                    <option value="german">Allemand</option>
+                    <option value="italy">Italien</option>
+                    <option value="poland">Polonais</option>
+                    <option value="hungry">Hongrois</option>
+                    <option value="netherland">Néerlandais</option>
+                    <option value="scottish">Ecossais</option>
+                    <option value="swedish">Suedois</option>
+                </select>
+            </fieldset>
 
-            </select>
+            <fieldset>
+                <legend>Adresse</legend>
+                    <label for="mail">E-mail</label>
+                    <input type="email" id="mail">
 
-            <label for="mail">E-mail</label>
-            <input type="email" id="mail">
+                    <label for="apostal">Adresse Postal</label>
+                    <input type="text" id="apostal">
 
-            <label for="apostal">Adresse Postal</label>
-            <input type="text" id="apostal">
-
-            <label for="cpostal">Code Postal</label>
-            <input type="text" id="cpostal" inputmode="number" maxlength="5" pattern="[0-9]{5}" required> 
+                    <label for="cpostal">Code Postal</label>
+                    <input type="text" id="cpostal" inputmode="number" maxlength="5" pattern="[0-9]{5}" required> 
             
-            <label for="city">Ville</label>
-            <input type="text" id="city">
-            
+                    <label for="city">Ville</label>
+                    <input type="text" id="city">
+            </fieldset>
             <fieldset>
                 <legend>Métier Exercé</legend>
 
@@ -51,21 +69,9 @@
               
                     <input type="radio" id="social_helper" value="social_helper" name="drone">
                     <label for="social_helper">Assistante Social</label>
-                
             </fieldset>
             
-            <label for="nation">Nationalité</label>
-            <select name="nationality" id="nation">
-                <option value="french">Français</option>
-                <option value="uk">Anglais</option>
-                <option value="german">Allemand</option>
-                <option value="italy">Italien</option>
-                <option value="poland">Polonais</option>
-                <option value="hungry">Hongrois</option>
-                <option value="netherland">Néerlandais</option>
-                <option value="scottish">Ecossais</option>
-                <option value="swedish">Suedois</option>
-            </select>
+
 
             <fieldset>
                 <legend>Informations de naissance</legend>
@@ -248,18 +254,15 @@
                 <label for="birthcountry">Pays de naissance</label>
                 <input type="text" id="birthcountry">
             </fieldset>
-
-            <label for="secu">Numéro de sécurité social</label>
-            <input type="text" id="secu" minlength="13" maxlength="13" impute="number">
-
-            <label for="pass">Numéro de passeport</label>
-            <input type="text" id="pass" minlength="9" maxlength="9">
-
-            <label for="date_pass">Date d'obtention de passeport</label>
-            <input type="date" id="date_pass">
-
-            <label for="date_val_pass">Date de validité de passeport</label>
-            <input type="date" id="date_val_pass">
+            <fieldset>
+                <legend>Passeport</legend>
+                <label for="pass">Numéro de passeport</label>
+                <input type="text" id="pass" minlength="9" maxlength="9">
+                <label for="date_pass">Date d'obtention de passeport</label>
+                <input type="date" id="date_pass">
+                <label for="date_val_pass">Date de validité de passeport</label>
+                <input type="date" id="date_val_pass">
+            </fieldset>
         </form>
     </body>
 </html>
