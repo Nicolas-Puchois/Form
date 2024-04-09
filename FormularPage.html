@@ -26,17 +26,40 @@
             <input type="text" id="apostal">
 
           <!--  <label for="cpostal">Code Postal</label>
-            <input type="text" id="cpostal" inputmode="number" maxlength="5"> -->
-
+            <input type="text" id="cpostal" inputmode="number" maxlength="5" pattern="[0-9]{5}" required> -->
+            
             <label for="city">Ville</label>
             <input type="text" id="city">
             
-            <label for="job">Métier Exercé</label>
-                <input type="checkbox" value="job1">Employé Polyvalent
-                <input type="checkbox" value="job2">Dévelloppeur Front-End
-                <input type="checkbox" value="job3">Employé de Mairie
-                <input type="checkbox" value="job3">Agent d'entretient
-                <input type="checkbox" value="job3">
-            </form>
+            <fieldset>
+                <legend>Métier Exercé</legend>
+
+               <div> 
+                    <input type="radio" id="employe" value="employe" name="drone">
+                    <label for="employe">Employé Polyvalent</label>
+                </div>  
+                
+                <div>   
+                    <input type="radio" id="dev" value="dev" name="drone">
+                    <label for="dev">Dévelloppeur Front-End</label>
+                </div>
+
+                <div> 
+                    <input type="radio" id="employe" value="employe" name="drone">
+                    <label for="employe">Employé de Mairie</label>
+                </div>
+
+                <div> 
+                    <input type="radio" value="maintainer" name="drone">
+                    <label for="employe">Agent d'entretient</label>
+                </div>
+
+                <div> 
+                    <input type="radio" value="social_helper" name="drone">
+                    <label for="employe">Assistante Social</label>
+                </div>
+            </fieldset>
+            
+        </form>
     </body>
 </html>
