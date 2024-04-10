@@ -3,7 +3,7 @@
         <head> <title>Formulaire d'inscription</title></head>
     <body>
         <h1> Formulaire à remplir</h1>
-        <form action="" method="post" class="form">
+        <form action="" method="post" id="form1">
 
             <fieldset>
                 <legend> Information personnel</legend>
@@ -47,7 +47,7 @@
                     <input type="text" id="apostal">
 
                     <label for="cpostal">Code Postal</label>
-                    <input type="text" id="cpostal" inputmode="number" maxlength="5" pattern="[0-9]{5}" required> 
+                    <input type="text" id="cpostal" inputmode="number" maxlength="5" pattern="[0-9]{5}"> 
             
                     <label for="city">Ville</label>
                     <input type="text" id="city">
@@ -263,10 +263,12 @@
 
                 <label for="date_pass">Date d'obtention de passeport</label>
                 <input type="date" id="date_pass">
-                
+
                 <label for="date_val_pass">Date de validité de passeport</label>
                 <input type="date" id="date_val_pass">
             </fieldset>
+
+            <button type="submit" form="form1" value="submit">Enregistrer</button>
         </form>
     </body>
 </html>
