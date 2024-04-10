@@ -8,6 +8,10 @@
     - à quoi ça sert ?
     - un exemple de formulaire HTML
 
+ - Créer avec 
+
+ --------------------------------------------
+
 ### HTML, c'est quoi? 
 
 ![imagehtml](./res/img/html5.jpeg)
@@ -26,7 +30,7 @@ A noter cependant que certaines balises sont dites _auto fermantes_ ou _orphelin
  - un exemple de formulaire :
     - afin de mieux visualiser, vous trouverez un [formulaire](./build/FormularPage.html) en HTML comme supports.
 
-### Built With
+### Créer Avec
 
 - ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 - ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
