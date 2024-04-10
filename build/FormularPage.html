@@ -8,13 +8,13 @@
             <fieldset>
                 <legend> Information personnel</legend>
                 <label for="name">Prénom</label>
-                <input type="text" id="name">
+                <input type="text" id="name" required>
 
                 <label for="surname">Nom</label>
-                <input type="text" id="surname">
+                <input type="text" id="surname" required>
 
                 <label for="age">Age</label>
-                <input type="number" id="age" min="0">
+                <input type="number" id="age" min="0" required>
 
                 <label for="gender">Sexe</label>
                 <select name="gender" id="gender">
@@ -23,7 +23,7 @@
                     <option value="woman">Femme</option>
                 </select>
                 <label for="secu">Numéro de sécurité social</label>
-                <input type="text" id="secu" minlength="13" maxlength="13">
+                <input type="text" id="secu" minlength="13" maxlength="13" required>
                 <label for="nation">Nationalité</label>
                 <select name="nationality" id="nation">
                     <option value="french">Français</option>
@@ -41,16 +41,16 @@
             <fieldset>
                 <legend>Adresse</legend>
                     <label for="mail">E-mail</label>
-                    <input type="email" id="mail">
+                    <input type="email" id="mail" required>
 
                     <label for="apostal">Adresse Postal</label>
-                    <input type="text" id="apostal">
+                    <input type="text" id="apostal" required>
 
                     <label for="cpostal">Code Postal</label>
-                    <input type="text" id="cpostal"  maxlength="5" pattern="[0-9]{5}"> 
+                    <input type="text" id="cpostal"  maxlength="5" pattern="[0-9]{5}" required> 
             
                     <label for="city">Ville</label>
-                    <input type="text" id="city">
+                    <input type="text" id="city" required>
             </fieldset>
             <fieldset>
                 <legend>Métier Exercé</legend>
@@ -253,19 +253,19 @@
                 </select>
 
                 <label for="birthcountry">Pays de naissance</label>
-                <input type="text" id="birthcountry">
+                <input type="text" id="birthcountry" required>
             </fieldset>
 
             <fieldset>
                 <legend>Passeport</legend>
                 <label for="pass">Numéro de passeport</label>
-                <input type="text" id="pass" minlength="9" maxlength="9">
+                <input type="text" id="pass" minlength="9" maxlength="9" required>
 
                 <label for="date_pass">Date d'obtention de passeport</label>
-                <input type="date" id="date_pass">
+                <input type="date" id="date_pass" required>
 
                 <label for="date_val_pass">Date de validité de passeport</label>
-                <input type="date" id="date_val_pass">
+                <input type="date" id="date_val_pass" required>
             </fieldset>
 
             <button type="submit" form="form1" value="submit">Enregistrer</button>
