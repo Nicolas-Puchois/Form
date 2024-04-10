@@ -259,7 +259,7 @@
             <fieldset>
                 <legend>Passeport</legend>
                 <label for="pass">Numéro de passeport</label>
-                <input type="text" id="pass" minlength="9" maxlength="9" required>
+                <input type="text" id="pass" minlength="9" maxlength="9" pattern="[0-9]{2}/[A-Z]{2}/[0-9]{5}" required>
                 <label for="date_pass">Date d'obtention de passeport</label>
                 <input type="date" id="date_pass" required>
 
