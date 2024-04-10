@@ -21,7 +21,10 @@ A noter cependant que certaines balises sont dites _auto fermantes_ ou _orphelin
 
  - à quoi ça sert ?
     - le formulaire est un élément indispensable de communication d'un site. Il permet d'enregistrer des informations dans une base de données ou d'envoyer un message sans passer par un autre site.
-    - Il est surtout utilisé dans les pages pour les formulaires de connexions. Cela permet d'avoir des accès en fonction des comptes (les comptes administrateurs ont des accès que les utilisateurs n'ont pas)
+    - Il est surtout utilisé dans les pages pour les formulaires de connexions. Cela permet d'avoir des accès en fonction des comptes (les comptes administrateurs ont des accès que les utilisateurs n'ont pas).
+
+ - un exemple de formulaire :
+    - afin de mieux visualiser, vous trouverez un [formulaire](./build/FormularPage.html) en HTML comme supports.
 
 ### Built With
 
