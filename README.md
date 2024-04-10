@@ -28,7 +28,7 @@ A noter cependant que certaines balises sont dites _auto fermantes_ ou _orphelin
     - Il est surtout utilisé dans les pages pour les formulaires de connexions. Cela permet d'avoir des accès en fonction des comptes (les comptes administrateurs ont des accès que les utilisateurs n'ont pas).
 
  - un exemple de formulaire :
-    - afin de mieux visualiser, vous trouverez un [formulaire](./build/FormularPage.html) en HTML comme supports.
+    - afin de mieux visualiser, vous trouverez un [formulaire](./docs/index.md) en HTML comme supports.
 
 ### Créer Avec
 
